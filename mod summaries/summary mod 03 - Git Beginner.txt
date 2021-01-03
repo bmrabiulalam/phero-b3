@@ -20,15 +20,26 @@ git push to save new commits in server to local repo
 
 3-5 Host simple website in gitHub using gh-pages
 git hub pages to host github source codes. 
-create gh-pages: goto your source link > 
+create gh-pages: goto your source link > settings > github pages > dropdown - select main > save > goto link that says page ready to publish.
+
+browser cache is cleared to remove website data from browser
+
 
 3-6 [advanced: feel free to skip] git branch and this will confuse you
 
-Quiz 3-6
+git branch is used to seperate coding task and simultaneously work on diffrent feature and finally merge them into the main branch
+
+git branch <branch-name> // creates branch only
+git checkout -b <branch-name> // creates branch and changes the git head to the new branch
+
+above commands are used to create branch.
+
+now to git push, use::  "git push --set-upstream origin <new-branch>" command
 
 3-7 [advanced] Create git branch, merge branches
 
-Quiz 3-7
+git merge is used to merge other branch to the working branch
+
 
 3-8 [advanced ] Merge conflict and how to avoid it
                 
