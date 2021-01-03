@@ -76,7 +76,11 @@ interviewer sometimes ask what is semantic tags:
 semantic tags are those tags, we can tell the purpose of tag just seeing it
 e.g. <section>, <strong>, <article>, etc
 
+
 some tips::
+
+see other html tags from w3schools
+
 in vs code type ! and push tab button to get the html structure.
 !tab
 
