@@ -36,10 +36,38 @@ above commands are used to create branch.
 
 now to git push, use::  "git push --set-upstream origin <new-branch>" command
 
+git checkout <branch> is used to move the git head or working directory to the <branch>.
+
 3-7 [advanced] Create git branch, merge branches
 
 git merge is used to merge other branch to the working branch
 
+create a git branch, work in int, add it, commit it and finally push it. now to merge the made changes to the main branch, checkout to main and do "git merge <branch>". 
+
+if both main and branch wants to change the same file, then merge conflict occurs. you can either keep the changes in the main branch or incomming changes from <branch> or both.
+
+then add>commit>push
 
 3-8 [advanced ] Merge conflict and how to avoid it
-                
+
+to avoid merge conflict, you may following steps, though, more advanced way is present out there.
+
+make change to main > add > commit > probly push it too if working remote > then merge it to sub br > now work on any sub branch file
+
+or 
+
+make change to sub branch > add > commit > probly push it too if working remote > then merge it to main
+    
+3-9 common github related issues faced by new developer
+
+do not do git init
+
+do not save changed files
+
+do not add/commit/push file changes
+
+filename case sensitive in server
+
+want to checkout to a branch that is in server but not in your local device. to checkout, everytime you start working, pull the repo and get all the changes from server.
+
+3-10 GitHub module overall summary
