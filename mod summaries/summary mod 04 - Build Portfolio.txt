@@ -1,0 +1,61 @@
+4-1 Module Introduction, overview of the site you will build
+
+
+4-2 Setup and resources needed to start your first ever project
+download resources from programming hero github repo
+
+4-3 Create HTML, link CSS, set title, span tag style
+font: is style look and feel decoration of letters
+to apply some style to all tags apply the styles in body tag
+
+4-4 Simple image background remove, set fancy background
+inpixio to remove photo background
+photopea to edit photo
+
+4-5 Float, create container, put two div side by side, image size
+body
+    section
+        div
+            other tag
+        div
+            other tag
+    section
+
+
+4-6 Background image, background-repeat, neutralize default style
+browser puts some margin by default. to remove that, use style margin: 0
+if i float some element from its container, then the container loses its height
+as the element are no longer there. so we have to put some height.
+use url() to put background image in css.
+
+4-7 Link button, target blank, text-decoration, linear gradient
+<a> tag used with link-button class, target="_blank" used for opening link in new tab 
+text-decoration: none; to remove default styles
+
+4-8 Dream image, half-width, background remove
+background-repeat: no-repeat; // otherwise background is repeated to fill the full dream-area
+background-image: url("images/dream-bg.png"); // set background image
+background-position: right; // set the background image to right position
+
+4-9 Dream area, dream text and download resume link button
+similar to 4-7
+
+4-10 Experience area, text highlight, meaningful class name
+background-color: white; is set to single-experience class to remove transparency in div body,
+otherwise background image shows up
+
+4-11 Box shadow, border image, gradient angle, footer
+box-shadow can not have single value, can have 2-5 values
+border-left: 7px solid; // set left border
+border-image: linear-gradient(180deg, lightSalmon, tomato); // image is set with gradient, not picture
+
+border-image-slice: 1; 
+The border-image-slice property specifies how to slice the image specified by border-image-source. The image is always sliced into nine sections: four corners, four edges and the middle.
+The "middle" part is treated as fully transparent, unless the fill keyword is set.
+More on:: https://www.w3schools.com/CSSref/css3_pr_border-image-slice.asp
+          https://www.youtube.com/watch?v=lpf-5mG9CGg
+
+4-12 Website hosting, live portfolio link, portfolio summary
+push the whole project in github and host it in github pages
+https://bmrabiulalam.github.io/web-portfolio/
+
